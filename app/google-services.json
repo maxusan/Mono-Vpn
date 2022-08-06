@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "786209850063",
+    "project_id": "mono-vpn-2799d",
+    "storage_bucket": "mono-vpn-2799d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786209850063:android:9253a6a5db05a28e996dba",
+        "android_client_info": {
+          "package_name": "banana.code.mono_vpn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786209850063-jfq2rk0eg8qc8vdlv12me8t96cudkast.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWk2R-dX53A6vRPGmw-7irgt2F0yzABpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786209850063-jfq2rk0eg8qc8vdlv12me8t96cudkast.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
