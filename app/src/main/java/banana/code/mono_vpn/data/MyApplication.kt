@@ -1,6 +1,7 @@
 package banana.code.mono_vpn.data
 
 import android.app.Application
+import banana.code.mono_vpn.di.AppModule
 import banana.code.mono_vpn.di.DaggerAppComponent
 
 /**
@@ -10,6 +11,6 @@ class MyApplication: Application() {
 
     override fun onCreate() {
         super.onCreate()
-        val appComponent = DaggerAppComponent.create()
+        DaggerAppComponent.create()
     }
 }
