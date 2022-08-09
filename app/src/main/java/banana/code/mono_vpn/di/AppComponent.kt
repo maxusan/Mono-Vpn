@@ -1,6 +1,5 @@
 package banana.code.mono_vpn.di
 
-import banana.code.mono_vpn.domain.repository.StorageRepository
 import banana.code.mono_vpn.ui.AppViewModel
 import banana.code.mono_vpn.ui.MainActivity
 import dagger.Component

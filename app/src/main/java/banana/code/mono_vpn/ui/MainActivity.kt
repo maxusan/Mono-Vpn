@@ -16,5 +16,6 @@ class MainActivity : AppCompatActivity() {
         DaggerAppComponent.create().inject(this)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        viewModel.getServersList(this)
     }
 }
