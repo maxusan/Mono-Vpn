@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="header_top_margin">24dp</dimen>
+    <dimen name="base_container_padding">8dp</dimen>
+    <dimen name="defaukt_top_margin">16dp</dimen>
 </resources>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
@@ -26,9 +25,41 @@
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="@dimen/base_container_padding">
 
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/BodyTitleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/display" />
 
+            <CheckedTextView
+                style="@style/CheckedTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/defaukt_top_margin"
+                android:checkMark="@drawable/ic_check"
+                android:checked="false"
+                android:text="@string/auto" />
+
+            <androidx.appcompat.widget.AppCompatCheckedTextView
+                style="@style/CheckedTextView"
+                android:checked="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/defaukt_top_margin"
+                android:checkMark="@drawable/ic_check"
+                android:text="@string/light_mode" />
+
+            <CheckedTextView
+                style="@style/CheckedTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/defaukt_top_margin"
+                android:checkMark="@drawable/ic_check"
+                android:checked="false"
+                android:text="@string/dark_mode" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 

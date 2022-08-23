@@ -39,6 +39,9 @@ class MainFragment : Fragment() {
         pagerAdapter = MainFragmentPagerAdapter(this, fragmentsList)
         binding.fragmentsPager.adapter = pagerAdapter
         binding.fragmentsPager.isUserInputEnabled = false
+        //fixme("Make selected by default 1 item instead 0")
+        binding.bnv.selectedItemId = R.id.home
+        binding.fragmentsPager.currentItem = 1
         binding.bnv.setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.history -> {
