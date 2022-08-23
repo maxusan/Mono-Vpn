@@ -13,7 +13,13 @@
         tools:context=".ui.main.MainFragment"
         android:background="@color/main_bg_color">
 
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/fragments_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
         <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bnv"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintDimensionRatio="335:50"
